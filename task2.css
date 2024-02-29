@@ -1,0 +1,180 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Home styles */
+ img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    
+}
+#home{
+    position: relative;
+    
+}
+#home ul{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    top: 20px;
+    right: 20px;
+    }
+#home li{
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 80px;
+    z-index: 1000;
+}
+#home a:hover{
+    color: red;
+    
+}
+#home h5{
+    position: absolute;
+    float: right;
+    top: 200px;
+    left: 600px;
+    font-family: "Protest Revolution", sans-serif;
+    
+}
+#home li a{
+    text-decoration: none;
+    padding: 1px;
+    color: white;
+   
+    }
+
+ /* Explore styles */
+ #explore{
+    height: auto;
+    width: 100%;
+    background-color:black;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    
+   
+ }
+ #explore img{
+    height: 250px;
+    width: 200px;
+    top: 5px;
+    margin-left: 300px;
+    box-shadow: 2px 2px 8px black;
+    margin-top: 100px;
+ }
+ #explore img:hover{
+   box-shadow: 5px 5px 10px rgb(14, 182, 182);
+ }
+ #explore p{
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: kode mono;
+    font-style:italic;
+ }
+ #explore .lakeimg{
+    margin-top: 60px;
+    margin-left: 100px;
+ }
+ #explore .lake{
+    margin-left: 150px;
+    margin-top: 90px;
+    
+ }
+ 
+ #animals{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+ }
+ #animals img{
+    height: 30vh;
+    width: 40%;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: 5cm;
+    box-shadow: 2px 2px 5px white;
+    
+ }
+ #animals img:hover{
+    filter: grayscale(10%) invert(10%) sepia(10%);
+ }
+
+ #contact{
+   overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+ }
+ form{
+   margin-left: 12cm;
+   width: 30%;
+ }
+@media only screen and (max-width: 768px) {
+   /* Adjustments for smaller screens */
+   img {
+       height: auto;
+       width: 100%;
+   }
+
+   #home h5 {
+       font-size: 20px;
+       left: 50%;
+       text-align: center;
+   }
+
+   #home ul {
+       display: flex;
+       justify-content: center;
+       margin-top: 10px;
+       top: 10px;
+       right: 0;
+   }
+
+   #home li {
+       margin-right: 20px;
+   }
+   
+   #explore img {
+       margin-left: 0;
+   }
+
+   #explore p {
+       margin-left: 0;
+       text-align: center;
+   }
+
+   #explore .lakeimg {
+       margin-left: 0;
+   }
+
+   #animals .row{
+    margin-top: 100px;
+    background-color: aquamarine;
+   }
+   #animals img {
+    
+       width: 80%;
+       margin-left: 10%;
+   }
+#contact{
+    background-color: aquamarine;
+}
+   form {
+       margin: 0 auto;
+       width: 80%;
+   }
+}
